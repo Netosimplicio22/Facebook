@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+.contaneir-principal{
+    width: 100vw;
+    height: 720px;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contaneir-principal .first-contaneir{ 
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contaneir-principal .first-contaneir img{
+    width: 301px;
+    height: 106px;
+    margin-left: -30px;
+}
+
+.contaneir-principal .first-contaneir h2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    font-weight: normal;
+    color: #1C1E21;
+}
+
+.contaneir-principal .segund-contaneir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaneir-principal .segund-contaneir form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(51, 51, 51, 0.137);
+    width: 396px;
+    height: 356px;
+    margin-bottom: 30px;
+}
+
+.contaneir-principal .segund-contaneir form .input-block input{
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #dddfe2;
+    width: 364px;
+    height: 52px;
+    color: black;
+    font-size: 17px;
+    text-indent: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+
+.contaneir-principal .segund-contaneir form .input-block input::placeholder{
+    color: rgb(139, 138, 138);
+}
+
+.contaneir-principal .segund-contaneir form .btn-entrar button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1877F2;
+    width: 364px;
+    height: 48px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    margin: 5px 0px 20px 0px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contaneir-principal .segund-contaneir form .btn-entrar button:hover{
+    background-color: #1870e2;
+}
+
+.contaneir-principal .segund-contaneir form .forgot-password a{
+    text-decoration: none;
+    color:#1877F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.contaneir-principal .segund-contaneir form .forgot-password a:hover{
+    text-decoration: 1px solid underline #1877F2;
+}
+
+.contaneir-principal .segund-contaneir form hr{
+    margin: 20px;
+    width: 364px;
+    height: 1px;
+    border: 1px solid #dddfe2;
+}
+
+.contaneir-principal .segund-contaneir form .btn-newcont button{
+    border: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #42B72A;
+    width: 168px;
+    border-radius: 8px;
+    height: 48px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contaneir-principal .segund-contaneir form .btn-newcont button:hover{
+    background-color: #3ea828;
+}
+
+.contaneir-principal .segund-contaneir .learn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1C1E21;
+    font-size: 14px;
+}
+
+.contaneir-principal .segund-contaneir .learn span{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contaneir-principal .segund-contaneir .learn span:hover{
+    text-decoration: 1px solid underline black;
+}
+
+footer{
+    width: 100vw;
+    height: 177px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+}
+
+footer a{
+    text-decoration: none;
+    color: #8A8D91;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .links .links-a1 a{
+    margin: 0px 0px 0px 5px;
+}
+
+footer .links .links-a2 a{
+    margin: 0px 10px 10px 2px;
+}
+
+footer .links .links-a3 a{
+    margin: 0px 10px 10px 2px;
+}
+
+footer .links .links-a4 a{
+    margin: 0px 10px 10px 2px;
+}
+
+footer hr{
+    width: 980px;
+    border: 1px solid #dddfe2;
+    margin: 10px 0px;
+}
+
+footer .links .link-final{
+    margin-top: 25px;
+}
